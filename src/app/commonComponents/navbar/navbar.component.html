@@ -1,15 +1,17 @@
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container-fluid px-md-5">
+      <!-- <a class="navbar-brand spaceGnormal f20" href="/">Navbar</a> -->
+       <img src="assets/Images/Codenclicks_white_bg_PNG.png" alt="Logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
           <li class="nav-item">
-            <a class="nav-link active spaceGnormal" aria-current="page" href="#">Home</a>
+            <a class="nav-link active spaceGnormal f20" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link spaceGnormal" href="#">About Us</a>
+            <a class="nav-link spaceGnormal f20" href="about">About Us</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,26 +25,26 @@
             </ul>
           </li> -->
           <li class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
-            <button type="button" class="btn me-2 spaceGnormal" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()" style="border: none !important; padding-top: 8px;">
+            <button type="button" class="btn me-2 spaceGnormal f20" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()" style="border: none !important; padding-top: 8px;">
               Services
             </button>
             <div ngbDropdownMenu aria-labelledby="dropdownManual">
-              <button ngbDropdownItem class="spaceGnormal">X</button>
-              <button ngbDropdownItem class="spaceGnormal">Y</button>
-              <button ngbDropdownItem class="spaceGnormal">Z</button>
+              <button ngbDropdownItem class="spaceGnormal f20">X</button>
+              <button ngbDropdownItem class="spaceGnormal f20">Y</button>
+              <button ngbDropdownItem class="spaceGnormal f20">Z</button>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link spaceGnormal" aria-disabled="true">Our Works</a>
+            <a class="nav-link spaceGnormal f20" aria-disabled="true">Our Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link spaceGnormal" aria-disabled="true">Blogs</a>
+            <a class="nav-link spaceGnormal f20" aria-disabled="true">Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link spaceGnormal" aria-disabled="true">Contact Us</a>
+            <a class="nav-link spaceGnormal f20" aria-disabled="true">Contact Us</a>
           </li>
         </ul>
-          <button class="btn btn-outline-success spaceGnormal primarybtn cncDarkFont" type="submit">Request a quote</button>
+          <button class="btn spaceGnormal primarybtn cncDarkFont f20" type="submit">Request a quote</button>
       </div>
     </div>
   </nav>
