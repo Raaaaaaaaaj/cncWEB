@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+:root{
+    --blue: #1C66B1;
+    --white: #ffffff;
+    --dark: #191A23;
+}
+@font-face {
+    font-family: "Space Grotesk";
+    src: url('/assets/Fonts/SpaceGrotesk-VariableFont_wght.ttf');
+    font-style: normal;
+}
+.spaceGnormal{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+.spaceGmedium{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+.spaceGbold{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+.f20{
+    /* 20px Font */
+    font-size: 1.25rem;
+}
+.f30{
+    /* 30px Font */
+    font-size: 1.875rem;
+}
+.f40{
+    /* 40px Font */
+    font-size: 2.5rem;
+}
+.f60{
+    /* 60px Font */
+    font-size: 3.75rem;
+}
+.cncBlue {
+    background-color: var(--blue);
+}
+.cncWhite {
+    background-color: var(--white);
+}
+.cncDark {
+    background-color: var(--dark);
+}
+.cncBlueFont {
+    color: var(--blue);
+}
+.cncWhiteFont {
+    color: var(--white);
+}
+.cncDarkFont {
+    color: var(--dark);
+}
+.primarybtn{
+    padding: 15px 50px;
+    outline: none !important;
+    border: 1px solid black;
+}
+.primarybtn:hover{
+    background-color: var(--blue);
+    border: 1px solid var(--white);
+}
