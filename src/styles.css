@@ -3,6 +3,7 @@
     --blue: #1C66B1;
     --white: #ffffff;
     --dark: #191A23;
+    --gray: #838383;
 }
 @font-face {
     font-family: "Space Grotesk";
@@ -55,6 +56,9 @@
 .cncDarkFont {
     color: var(--dark);
 }
+.cncGrayFont {
+    color: var(--gray);
+}
 .primarybtn{
     padding: 15px 50px;
     outline: none !important;
@@ -73,4 +77,9 @@
 .primarydarkbtn:hover{
     background-color: var(--white);
     border: 1px solid var(--blue);
+}
+.sectionHeaders{
+    background-color: #1C66B1;
+    padding: 15px 10px;
+    letter-spacing: 3px;
 }
