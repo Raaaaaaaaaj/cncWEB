@@ -4,9 +4,17 @@
     --white: #ffffff;
     --dark: #191A23;
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+   overflow-x: hidden; 
+}
 @font-face {
     font-family: "Space Grotesk";
-    src: url('/assets/Fonts/SpaceGrotesk-VariableFont_wght.ttf');
+    src: url('/assets/Fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
     font-style: normal;
 }
 .spaceGnormal{
@@ -73,4 +81,7 @@
 .primarydarkbtn:hover{
     background-color: var(--white);
     border: 1px solid var(--blue);
+}
+.text-justify{
+    text-align: justify;
 }
