@@ -39,63 +39,29 @@
  <!-- SERVICE Section -->
 <section class="container my-5">
     <div class="row justify-content-around">
-        <div class="col-6 ser-card d-flex align-items-center justify-content-between px-5 py-4 mb-5">
-            <div class="col-6 text-part">
-               <span>
-                    <h5 class="mb-0">Search Engine</h5>
-                    <h5 class="mb-0">Optimization</h5>
-                </span>
-                <a href=""><span><img src="assets/Images/arrow-b.png" alt="" class="img-fluid arrow me-3"></span>
-                Learn More</a>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="assets/Images/service1.png" alt="" class="img-fluid">
-            </div>
+        <div class="col-lg-6">
+            <app-service-cards 
+                serviceCardHead="Development" 
+                serviceCardHead2="Custom Solutions"
+                serviceButtonLink="https://turfello.com"
+                serviceImage="assets/Images/service1.png">
+            </app-service-cards>
+        </div>
+        <div class="col-lg-6">
+            <app-service-cards 
+                serviceCardHead="Website" 
+                serviceCardHead2="Custom Solutions"
+                serviceButtonLink="https://turfello.com"
+                serviceImage="assets/Images/service1.png">
+            </app-service-cards>
         </div>
 
-        <div class="col-6 ser-card bg-blue d-flex align-items-center justify-content-between px-5 py-4 mb-5">
-            <div class="col-6 text-part">
-               <span>
-                    <h5 class="mb-0">Search Engine</h5>
-                    <h5 class="mb-0">Optimization</h5>
-                </span>
-                <a href=""><span><img src="assets/Images/arrow-w.png" alt="" class="img-fluid arrow me-3"></span>
-                Learn More</a>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="assets/Images/service2.png" alt="" class="img-fluid">
-            </div>
-        </div>
-
-        <div class="col-6 ser-card bg-dark d-flex align-items-center justify-content-between px-5 py-4 mb-5">
-            <div class="col-6 text-part">
-               <span>
-                    <h5 class="mb-0">Search Engine</h5>
-                    <h5 class="mb-0">Optimization</h5>
-                </span>
-                <a href=""><span><img src="assets/Images/arrow-w.png" alt="" class="img-fluid arrow me-3"></span>
-                Learn More</a>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="assets/Images/service3.png" alt="" class="img-fluid">
-            </div>
-        </div>
-
-        <div class="col-6 ser-card d-flex align-items-center justify-content-between px-5 py-4 mb-5">
-            <div class="col-6 text-part">
-               <span>
-                    <h5 class="mb-0">Search Engine</h5>
-                    <h5 class="mb-0">Optimization</h5>
-                </span>
-                <a href=""><span><img src="assets/Images/arrow-b.png" alt="" class="img-fluid arrow me-3"></span>
-                Learn More</a>
-            </div>
-            <div class="col-6 d-flex justify-content-center">
-                <img src="assets/Images/service4.png" alt="" class="img-fluid">
-            </div>
-        </div>
-                
+        <app-service-cards 
+            serviceCardHead="Web app" 
+            serviceCardHead2="Custom Solutions"
+            serviceButtonLink="https://turfello.com"
+            serviceImage="assets/Images/service1.png">
+        </app-service-cards>
     </div>
 </section>
-                
-                <!-- SERVICE Section -->
+<!-- SERVICE Section -->
