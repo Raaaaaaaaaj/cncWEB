@@ -3,6 +3,7 @@
     --blue: #1C66B1;
     --white: #ffffff;
     --dark: #191A23;
+    --gray: #838383;
 }
 *{
     box-sizing: border-box;
@@ -63,6 +64,9 @@ html,body{
 .cncDarkFont {
     color: var(--dark);
 }
+.cncGrayFont {
+    color: var(--gray);
+}
 .primarybtn{
     padding: 15px 50px;
     outline: none !important;
@@ -81,7 +85,4 @@ html,body{
 .primarydarkbtn:hover{
     background-color: var(--white);
     border: 1px solid var(--blue);
-}
-.text-justify{
-    text-align: justify;
 }
