@@ -1,4 +1,5 @@
 /* Global styles */
+/* @import "tailwindcss"; */
 :root{
     --blue: #1C66B1;
     --white: #ffffff;
@@ -92,3 +93,37 @@ html,body{
     background-color: var(--white);
     border: 1px solid var(--blue);
 }
+
+
+
+
+
+
+
+/* Responsive Breakpoints */
+
+/* Extra Small Devices (Mobiles) */
+  @media (max-width: 576px) {
+
+  }
+  
+  /* Small Devices (Tablets, Large Phones) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    
+  }
+  
+  /* Medium Devices (Tablets, Small Laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    
+  }
+  
+  /* Large Devices (Laptops, Desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    
+  }
+  
+  /* Extra Large Devices (Large Desktops, TVs) */
+  @media (min-width: 1201px) {
+    
+  }
+  
