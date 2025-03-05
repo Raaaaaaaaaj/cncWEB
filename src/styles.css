@@ -14,20 +14,20 @@ html,body{
    overflow-x: hidden; 
 }
 @font-face {
-    font-family: "Space Grotesk";
-    src: url('/assets/Fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+    font-family: "Syne";
+    src: url('/assets/Fonts/Syne/Syne-VariableFont_wght.ttf');
     font-style: normal;
 }
-.spaceGnormal{
-    font-family: 'Space Grotesk', sans-serif;
+.syneNormal{
+    font-family: 'Syne', sans-serif;
     font-weight: 400;
 }
-.spaceGmedium{
-    font-family: 'Space Grotesk', sans-serif;
+.syneMedium{
+    font-family: 'Syne', sans-serif;
     font-weight: 500;
 }
-.spaceGbold{
-    font-family: 'Space Grotesk', sans-serif;
+.syneBold{
+    font-family: 'Syne', sans-serif;
     font-weight: bold;
 }
 .f20{
