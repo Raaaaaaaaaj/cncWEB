@@ -1,4 +1,0 @@
-1. App folder has 3 folders 
-   a. Assets [Will contain all the assets files like fonts and images]
-   b. Commoncomponents [Will contain all the shared component throughout the website]
-   c. Page [Will contain the pages]
